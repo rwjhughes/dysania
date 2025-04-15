@@ -1,0 +1,150 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.socials {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  padding-left: 750px;
+  margin-top: 20px;
+  z-index: 99;
+}
+
+.socials img {
+  width: auto;
+  height: 36px;
+}
+
+.title {
+  margin-bottom: -390px;
+  width: 800px;
+  filter: invert(1) drop-shadow(15px 10px 3px #000000);
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px 0;
+  padding: 15px 0;
+  margin: 0 20%;
+}
+
+.item h2 {
+  margin: 25px 0;
+  text-shadow: black 5px 5px 3px;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* gap: 0 50px; */
+  /* margin: 0 110px; */
+}
+
+.youtube {
+  width: 420px;
+  height: 235px;
+  padding: 0 25px 25px 25px;
+}
+
+.content h4 {
+  font-size: 16.5pt;
+  margin: 0 110px;
+}
+
+.footer {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  align-items: center;
+  gap: 10px 0;
+  margin: 0;
+  font-size: 18pt;
+}
+
+.column h4 {
+  align-self: center;
+  font-size: 20pt;
+  margin: 0;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.albumCover {
+  width: 450px;
+}
+
+
+.albumTitle {
+  width: 500px;
+  filter: invert(1) drop-shadow(15px 10px 3px #000000);
+}
+
+.odesli {
+  width: 450px;
+  height: 535px;
+}
+
+@media (max-width: 800px) {
+  .title {
+    width: 360px;
+    margin-top: -20px;
+    margin-bottom: -170px;
+    filter: invert(1) drop-shadow(10px 8px 3px #000000);
+  }
+
+  .albumTitle {
+    width: 280px;
+    filter: invert(1) drop-shadow(10px 8px 3px #000000);
+  }
+
+  .albumCover {
+    width: 300px;
+  }
+
+  .odesli {
+    width: 300px;
+    height: 420px;
+  }
+
+  .socials {
+    padding-left: 10px;
+    margin-top: 50px;
+  }
+
+  .socials img {
+    height: 20px;
+  }
+
+  .item,
+  .content h4 {
+    margin: 0;
+  }
+
+  .column h4 {
+    padding: 0 12px;
+  }
+
+  .content h4 {
+    font-size: 15pt;
+    padding: 0 20px;
+  }
+
+}
