@@ -22,7 +22,7 @@ export default function Home() {
               <a href="https://www.facebook.com/DysaniaG/" target="_blank"><img src="/media/socials/facebook.png" /></a>
               <a href="https://dysania1.bandcamp.com/music" target="_blank"><img src="/media/socials/bandcamp.png" /></a>
             </div>
-            <div><p><a href="mailto:dysaniaceol@gmail.com">📧 dysania.g@gmail.com</a></p></div>
+            <div><p><a href="mailto:dysania.g@gmail.com">📧 dysania.g@gmail.com</a></p></div>
           </div>
         </div>
 
