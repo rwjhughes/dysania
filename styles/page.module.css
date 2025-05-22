@@ -11,13 +11,24 @@
   margin-top: 30px;
 }
 
+.contact {
+  display: flex;
+  flex-direction: column;
+  padding-left: 750px;
+  margin-top: 20px;
+  z-index: 99;
+}
+
+.contact p {
+  font-size: 16pt;
+  margin: 0;
+}
+
 .socials {
   display: flex;
   flex-direction: row;
   gap: 15px;
-  padding-left: 750px;
-  margin-top: 20px;
-  z-index: 99;
+
 }
 
 .socials img {
@@ -98,8 +109,18 @@
 }
 
 .odesli {
-  width: 450px;
-  height: 535px;
+  width: 560px;
+  height: 60px;
+}
+
+.odesliVideo {
+  width: 400px;
+  height: 450px;
+}
+
+.speirling {
+  width: 560px;
+  height: 300px;
 }
 
 @media (max-width: 800px) {
@@ -121,10 +142,9 @@
 
   .odesli {
     width: 300px;
-    height: 420px;
   }
 
-  .socials {
+  .contact {
     padding-left: 10px;
     margin-top: 50px;
   }
@@ -145,6 +165,20 @@
   .content h4 {
     font-size: 15pt;
     padding: 0 20px;
+  }
+
+  .speirling {
+    width: 320px;
+    height: 180px;
+  }
+
+  .odesliVideo {
+    width: 250px;
+    height: 320px;
+  }
+
+  .footer {
+    width: 300px;
   }
 
 }
