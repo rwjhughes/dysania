@@ -15,14 +15,11 @@ export default function Home() {
         <div className={styles.header}>
           <img className={styles.title} src="/media/title.png" />
           <hr />
-          <div className={styles.contact}>
-            <div className={styles.socials}>
-              <a href="https://www.instagram.com/dysaniaceol/" target="_blank"><img src="/media/socials/instagram.png" /></a>
-              <a href="https://www.youtube.com/@dysaniaceol3444" target="_blank"><img src="/media/socials/youtube.png" /></a>
-              <a href="https://www.facebook.com/DysaniaG/" target="_blank"><img src="/media/socials/facebook.png" /></a>
-              <a href="https://dysania1.bandcamp.com/music" target="_blank"><img src="/media/socials/bandcamp.png" /></a>
-            </div>
-            <div><p><a href="mailto:dysania.g@gmail.com">📧 dysania.g@gmail.com</a></p></div>
+          <div className={styles.socials}>
+            <a href="https://www.instagram.com/dysaniaceol/" target="_blank"><img src="/media/socials/instagram.png" /></a>
+            <a href="https://www.youtube.com/@dysaniaceol3444" target="_blank"><img src="/media/socials/youtube.png" /></a>
+            <a href="https://www.facebook.com/DysaniaG/" target="_blank"><img src="/media/socials/facebook.png" /></a>
+            <a href="https://dysania1.bandcamp.com/music" target="_blank"><img src="/media/socials/bandcamp.png" /></a>
           </div>
         </div>
 
@@ -31,13 +28,13 @@ export default function Home() {
         <div className={styles.item}>
           <div className={styles.column}>
             <img className={styles.albumTitle} src='/media/album_title.png' />
-            <h4>Albam á sheoladh amárach</h4>
-            <iframe width="315" height="560"
+            <h4>Albam amach anois</h4>
+            <iframe className={styles.bandcamp} src="https://bandcamp.com/EmbeddedPlayer/album=1960415145/size=large/bgcol=ffffff/linkcol=0687f5/transparent=true/" frameBorder="0" seamless><a href="https://dysania1.bandcamp.com/album/an-l-ba">An Lá Ba by Dysania</a></iframe>            {/* <iframe width="315" height="560"
               src="https://www.youtube.com/embed/b3wArdhJNBk"
               title="YouTube video player"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            ></iframe>
+            ></iframe> */}
 
 
             {/* <img className={styles.albumCover} src="/media/cover.png" /> */}
@@ -66,6 +63,7 @@ export default function Home() {
         </div>
 
         <div className={styles.footer}>
+          <div><p><a href="mailto:dysania.g@gmail.com">📧 dysania.g@gmail.com</a></p></div>
           <p>© Dysania {currentYear} — arna fhorbairt ag <a href="https://risteard.ie" target='_blank'>Risteárd Ó hAodha</a></p>
         </div>
       </div>
